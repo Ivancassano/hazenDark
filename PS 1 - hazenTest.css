@@ -207,6 +207,7 @@ select{
 .twoColumns{
     overflow: hidden;
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .twoColumns h1{
