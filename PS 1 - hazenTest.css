@@ -161,6 +161,8 @@ select{
     text-align: center;
 }
 
+/*Image with overlap*/
+
 .principal1{
     position: relative;
     height: 800px;
@@ -225,4 +227,22 @@ select{
     background-color: transparent;
     color: #68A0C2;
     margin: 15px 0;
+}
+
+/*BackgroundWithText*/
+
+.backgroundWithText{
+    background: #EFE6E1;
+    position: relative;
+    height: 499px;
+}
+.backgroundImage1{
+    display: block;
+    margin: 0 auto;
+}
+
+.background1TextContainer{
+    position: relative;
+    text-align: center;
+    bottom: 68%;
 }
