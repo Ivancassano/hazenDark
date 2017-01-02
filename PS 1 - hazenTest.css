@@ -89,12 +89,14 @@ input{
     font-size: 15px;
 }
 
-#submit{
-    width: 150px;
+.ReadMore{
+    width: 180px;
     border-radius:30px;
     background-color: #70AED3;
     color: #ECF5F8;
     font-size: 15px;
+    border: solid;
+    border-color: #70AED3;
 }
 
 select{
@@ -197,5 +199,30 @@ select{
     border-radius: 30px;
     text-align: center;
     border-width: thin;
+}
+/* Two columns */
+.twoColumns{
+    overflow: hidden;
+    text-align: center;
+}
 
+.twoColumns h1{
+    color: #70AED3;
+}
+
+.twoColumns p{
+    color: white;
+}
+
+.column1{
+    display: inline-block;
+    width: 400px;
+    font-size: large;
+    text-align: left;
+}
+
+.column1 .ReadMore{
+    background-color: transparent;
+    color: #68A0C2;
+    margin: 15px 0;
 }
