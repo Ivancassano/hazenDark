@@ -175,14 +175,15 @@ select{
 }
 
 .floating1{
-    position: absolute;
-    padding: 20px 70px;
+    position: relative;
+    padding: 35px 70px;
+    margin: 0 auto;
     background-color: #FFFFFF;
+    width: 450px;
+    height: 350px;
     color: #06426D;
-    top: 24.8%;
-    left: 29%;
-    right: 37.8%;
-    bottom: 22%;
+    top: 25%;
+    right: 3%;
     font-size: x-large;
 }
 
