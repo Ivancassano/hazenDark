@@ -71,7 +71,7 @@ nav{
 
 input{
     padding: 0 10px;
-    margin: 0 10px;
+    margin: 10px;
     border: 0;
     height: 40px;
     color: #AFAFAF;
@@ -85,11 +85,13 @@ input{
 
 #select{
     width: 200px;
+    margin: 10px;
     padding: 0 10px;
     font-size: 15px;
 }
 
 .ReadMore{
+    cursor:pointer;
     width: 180px;
     border-radius:30px;
     background-color: #70AED3;
